@@ -1,0 +1,320 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('../../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('../../assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('../../assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url('../../assets/fonts/Montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: LucidaGrande;
+    src: url('../../assets/fonts/lucida-grande/LucidaGrande.ttf');
+}
+
+@font-face {
+    font-family: LucidaGrandeBold;
+    src: url('../../assets/fonts/lucida-grande/LucidaGrandeBold.ttf');
+}
+
+@font-face {
+    font-family: 'Avenir LT Std 55 Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 55 Roman'), url('../../assets/fonts/avenir/AvenirLTStd-Roman.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 55 Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 55 Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-Oblique.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 35 Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light'), url('../../assets/fonts/avenir/AvenirLTStd-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 35 Light Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 35 Light Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-LightOblique.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 45 Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 45 Book'), url('../../assets/fonts/avenir/AvenirLTStd-Book.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 45 Book Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 45 Book Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-BookOblique.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 65 Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 65 Medium'), url('../../assets/fonts/avenir/AvenirLTStd-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 65 Medium Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 65 Medium Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-MediumOblique.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 85 Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 85 Heavy'), url('../../assets/fonts/avenir/AvenirLTStd-Heavy.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 85 Heavy Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 85 Heavy Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-HeavyOblique.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 95 Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 95 Black'), url('../../assets/fonts/avenir/AvenirLTStd-Black.woff') format('woff');
+}
+@font-face {
+    font-family: 'Avenir LT Std 95 Black Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Avenir LT Std 95 Black Oblique'), url('../../assets/fonts/avenir/AvenirLTStd-BlackOblique.woff') format('woff');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Avenir LT Std 55 Roman';
+}
+.input-atm-card,.input-manufacturer,.input-email,.card-pin-input,.expiry-input,.addcard-input,.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
+    outline:0px !important;
+    -webkit-appearance:none!important;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+}
+a{
+    text-decoration: none;
+}
+a:hover, a:focus, a:active{
+    text-decoration: none;
+}
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateX(0); }
+    50%  { transform: translatex(-10px); }
+    100% { transform: translateX(0); }
+}
+
+.navbar-light .navbar-nav .nav-link a{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    text-decoration: none;
+    color: #4D4D4D;
+    letter-spacing: -0.16px;
+}
+.login-btn{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    color: #B58000 !important;
+    text-decoration: none;
+    letter-spacing: -0.13px;
+}
+.peexoo-header{
+    background: url("../../assets/images/bg.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 702px;
+}
+
+.nav-below{
+    width: 100%;
+    height: 69px;
+    background: #DD9C00;
+    
+}
+.nav-below2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-below img{
+    width: 190px;
+    margin-top: -2rem;
+    border-radius: 5px;
+    position: absolute;
+}
+.navbar-below{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 1.37rem 0; */
+    flex-wrap: wrap;
+    /* height: 100%; */
+}
+.navbar-below a{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 69px;
+    transition: all .4s ease-in-out;
+}
+.navbar-below a:hover{
+    color: #ffffff;
+    text-decoration: none;
+    background: #4D4D4D;
+}
+.navbar-below .active{
+    color: #ffffff;
+    text-decoration: none;
+    background: #4D4D4D;
+}
+
+.afroshot-section{
+    padding: 3rem 0;
+    background: #FEFBF3;
+}
+.afroshots{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.afroshots-v{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+}
+.afroshots h1{
+    font-family: LucidaGrande;
+    font-size: 64px;
+    color: #4D4D4D;
+    letter-spacing: -0.38px;
+}
+
+.afro_buttons{
+    display: flex;
+}
+.btn-message-photo{
+    border: 1px solid #FFB503;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    color: #FFB503;
+    background: #ffffff;
+    height: 55px;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    transition: all .4s ease-in-out;
+    margin: 0 0.5rem;
+}
+.btn-message-photo:hover{
+    background: #FFB503;
+    color: #ffffff;
+}
+.btn-book-now{
+    border: 1px solid #FFB503;
+    background: #FFB503;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    color: #FFFFFF;
+    height: 55px;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    transition: all .4s ease-in-out;
+    margin: 0 0.5rem;
+}
+.btn-book-now:hover{
+    background: #ffffff;
+    color: #FFB503;
+}
+
+.calender-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+.calendar-single{
+    margin: 1rem;
+    background: #ffffff;
+}
+
+.footer{
+    background: #FFFFFF;
+    padding: 1.5rem 0;
+}
+ul{
+padding-left: 0;
+}
+li{
+list-style-type: none;
+line-height: 2rem;
+}
+.footer p{
+font-family: Montserrat-SemiBold;
+font-size: 18px;
+color: #4D4D4D;
+}
+.footer a{
+text-decoration: none;
+font-family: Montserrat-Regular;
+font-size: 16px;
+color: #4D4D4D;
+letter-spacing: -0.16px;
+}
+.footer a:hover{
+text-decoration: none;
+color: #FFB503;
+}
+.social{
+display: flex;
+}
+.social li{
+padding: 5px 10px 5px 0;
+}
+.footer-cc{
+    background: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 57px;
+}
+.footer-cc p{
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    color: #D4D4D4;
+    margin-bottom: 0;
+}

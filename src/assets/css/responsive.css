@@ -1,0 +1,212 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .navbar-light .navbar-nav .nav-link a{
+        font-size: 14px;
+    }
+    .login-btn{
+        font-size: 14px;
+    }
+    .peexoo_logo{
+        width: 70%;
+    }
+    .nav-below img{
+        display: none;
+    }
+    .navbar-below{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .navbar-below a{
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        color: #ffffff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        height: 69px;
+    }
+    .afroshots h1{
+        font-size: 34px;
+    }
+    .btn-message-photo{
+        font-size: 12px;
+        height: 35px;
+        padding: 0 1.3rem;
+        margin: 0 0.3rem;
+    }
+    .btn-book-now{
+        font-size: 12px;
+        height: 35px;
+        padding: 0 1.3rem;
+        margin: 0 0.3rem;
+    }
+    .calender-section{
+        flex-wrap: wrap;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+    .footer a{
+        font-size: 14px;
+    }
+    .footer-cc p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-light .navbar-nav .nav-link a{
+        font-size: 14px;
+    }
+    .login-btn{
+        font-size: 14px;
+    }
+    .peexoo_logo{
+        width: 70%;
+    }
+    /* .nav-below img{
+        display: none;
+    } */
+    .navbar-below{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-below a{
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        color: #ffffff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        height: 69px;
+    }
+    .afroshots h1{
+        font-size: 34px;
+    }
+    .btn-message-photo{
+        font-size: 12px;
+        height: 35px;
+        padding: 0 1.3rem;
+        margin: 0 0.3rem;
+    }
+    .btn-book-now{
+        font-size: 12px;
+        height: 35px;
+        padding: 0 1.3rem;
+        margin: 0 0.3rem;
+    }
+    .calender-section{
+        flex-wrap: wrap;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+    .footer a{
+        font-size: 14px;
+    }
+    .footer-cc p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .navbar-light .navbar-nav .nav-link a{
+        font-size: 14px;
+    }
+    .login-btn{
+        font-size: 14px;
+    }
+    .navbar-below a{
+        font-size: 14px;
+    }
+    .btn-message-photo{
+        border: 1px solid #FFB503;
+        font-family: Montserrat-Medium;
+        font-size: 14px;
+        color: #FFB503;
+        background: #ffffff;
+        height: 45px;
+        padding: 0 1.5rem;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        transition: all .4s ease-in-out;
+        margin: 0 0.5rem;
+    }
+    .btn-book-now{
+        border: 1px solid #FFB503;
+        background: #FFB503;
+        font-family: Montserrat-Medium;
+        font-size: 14px;
+        color: #FFFFFF;
+        height: 45px;
+        padding: 0 1.5rem;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        transition: all .4s ease-in-out;
+        margin: 0 0.5rem;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+    .footer a{
+        font-size: 14px;
+    }
+    .footer-cc p{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    .navbar-light .navbar-nav .nav-link a{
+        font-size: 14px;
+    }
+    .login-btn{
+        font-size: 14px;
+    }
+    .navbar-below a{
+        font-size: 14px;
+    }
+    .btn-message-photo{
+        border: 1px solid #FFB503;
+        font-family: Montserrat-Medium;
+        font-size: 14px;
+        color: #FFB503;
+        background: #ffffff;
+        height: 45px;
+        padding: 0 1.5rem;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        transition: all .4s ease-in-out;
+        margin: 0 0.5rem;
+    }
+    .btn-book-now{
+        border: 1px solid #FFB503;
+        background: #FFB503;
+        font-family: Montserrat-Medium;
+        font-size: 14px;
+        color: #FFFFFF;
+        height: 45px;
+        padding: 0 1.5rem;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        transition: all .4s ease-in-out;
+        margin: 0 0.5rem;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+    .footer a{
+        font-size: 14px;
+    }
+    .footer-cc p{
+        font-size: 14px;
+    }
+}
