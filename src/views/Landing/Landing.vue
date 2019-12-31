@@ -28,8 +28,8 @@
                         <img src="../../assets/images/verified.svg" alt="Verified">
                     </div>
                     <div class="afro_buttons">
-                        <button class="btn-message-photo">Message Photographer</button>
-                        <button class="btn-book-now">Book Now</button>
+                        <button class="btn-message-photo hvr-sweep-to-right">Message Photographer</button>
+                        <button class="btn-book-now hvr-sweep-to-left">Book Now</button>
                     </div>
                 </div>
 
