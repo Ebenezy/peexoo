@@ -1,4 +1,4 @@
-# Peexoo
+# Peexoo Technology
 
 ## Project setup
 ```
